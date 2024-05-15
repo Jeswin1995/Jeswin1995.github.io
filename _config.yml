@@ -21,7 +21,7 @@ repository               : "Jeswin1995/Jeswin1995.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/linkedinprof.JPG"
+  avatar           : "images/linkedinprof.jpg"
   name             : "Jeswin Kannampuzha Francis"
   pronouns         : # example: "she/her"  
   bio              : "XR developer/Chemical engineer"
