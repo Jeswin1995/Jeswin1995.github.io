@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 ## Projects
 
 ### Development of an Extended Reality Tool for CFD-Aided Design of a Shell and Tube Heat Exchanger
