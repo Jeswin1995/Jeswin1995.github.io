@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Remote Factory"
+excerpt: "AR project in Hololens 2 combining XR with chemical engineering and IoT making possible to remotely control a plant from your home<br/><img src='/images/reactor.png'>"
 collection: portfolio
 ---
 
