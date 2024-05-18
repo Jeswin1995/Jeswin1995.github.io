@@ -3,12 +3,11 @@ title: "Remote Factory"
 excerpt: "AR project in Hololens 2 combining XR with chemical engineering and IoT making possible to remotely control a plant from your home<br/><img src='/images/reactor.png'>"
 collection: portfolio
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tyZsAxdSBIg?si=vdudPeCmzNQm-Ulf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Augmented Reality Chemical Reactor Setup
 
 This project demonstrates how to use m2mqtt, WorldLocking tools, and Microsoft Hololens 2 to display a 3D model of a chemical reactor setup and control the same reactor using a MQTT server, ThingSpeak.
-
-![prot P.S.I](/images/reactor.png)
 
 ## Requirements
 
