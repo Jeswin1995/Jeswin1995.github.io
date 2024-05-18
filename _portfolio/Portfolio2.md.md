@@ -4,9 +4,6 @@ excerpt: "AR based tool for CFD aided heat exchanger design<br/><img src='/image
 collection: portfolio
 ---
 
-
-![CFDXR](/images/simulation menu with model.png)
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-olkPf3L3b8?si=rq7nVFWnbvW6VXSV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Project Overview
