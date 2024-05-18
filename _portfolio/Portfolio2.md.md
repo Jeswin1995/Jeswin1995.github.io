@@ -6,7 +6,7 @@ collection: portfolio
 
 # Extended Reality Tool for CFD-Aided Design and Development of a Shell-Tube Heat Exchanger
 
-![Project Banner](path_to_your_banner_image)
+![CFDXR](/images/menu with model.png)
 
 ## Project Overview
 This project showcases the integration of Extended Reality (XR) technologies with Computational Fluid Dynamics (CFD) simulations to enhance advanced education and research in chemical engineering. The main highlight is a user-friendly Augmented Reality (AR) interface that allows interactive exploration and analysis of fluid dynamics in a shell and tube heat exchanger.
@@ -27,7 +27,6 @@ This project showcases the integration of Extended Reality (XR) technologies wit
 - [Results](#results)
 - [Conclusion](#conclusion)
 - [Future Work](#future-work)
-- [Contact](#contact)
 
 ## Abstract
 This project introduces a digital environment that integrates interactive CFD simulations tailored for advanced education in chemical engineering. The architecture employs a client-server network, establishing an automated bidirectional connection linking CFD solvers and a game engine. A modular software approach ensures the creation of enduring and interconnected digital applications. To address computational complexities and resource-intensive features, a content delivery network alleviates the burden of intricate calculations from end-user devices. A case study involving a shell and tube heat exchanger assesses the application’s performance, with results scrutinized for the efficacy of AR in visualizing simulations. Discussions center on the system’s applicability and outline potential future research and application directions.
@@ -66,12 +65,17 @@ The methodology involves server automation using open-source visual-based progra
 ## Implementation
 The implementation employs Microsoft HoloLens 2 as the AR hardware interface, integrating various software tools:
 - **CFD Simulations:** OpenFOAM for fluid dynamics simulations, automated in Node-RED.
+
+![Proposed architechure](/images/Client-server architechure new.png)
+
 - **3D Visualization:** ParaView and Blender for transforming simulation data into interactive models.
 - **AR Application Development:** Unity, along with MRTK, for designing the user interface and enabling real-time insights into the heat exchanger's behavior.
 
 ## Results
 The case study demonstrates the effectiveness of the AR application in visualizing CFD simulations of a shell and tube heat exchanger. The use of AR significantly enhances user comprehension and interaction with simulation data, providing precise and captivating experiences.
-
+![SimulationMenu](/images/simulation menu with model.jpg)
+![HeatMap](/images/Temperature heatmap.jpg)
+![TwoHandInteraction](/images/two hand interaction.jpg)
 ## Conclusion
 The study successfully integrates AR with CFD simulations, making advanced fluid dynamics accessible to a broader audience. Future research may explore further enhancements in AR technology and its application in other engineering fields.
 
@@ -81,13 +85,6 @@ The study successfully integrates AR with CFD simulations, making advanced fluid
 - Investigate the integration of VR technologies for more immersive experiences.
 - Conduct user studies to gather feedback and improve the user experience.
 
-## Contact
-For more information, please contact:
-
-**Jeswin Kannampuzha Francis**  
-[Email](mailto:your-email@example.com)  
-[LinkedIn](https://www.linkedin.com/in/your-profile)  
-[GitHub](https://github.com/your-profile)
 
 ---
 
