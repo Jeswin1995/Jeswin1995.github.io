@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Remote Factory"
+excerpt: "AR project in Hololens 2 combining XR with chemical engineering and IoT making possible to remotely control a plant from your home<br/><img src='/images/reactor.png'>"
 collection: portfolio
 ---
 
@@ -8,7 +8,7 @@ collection: portfolio
 
 This project demonstrates how to use m2mqtt, WorldLocking tools, and Microsoft Hololens 2 to display a 3D model of a chemical reactor setup and control the same reactor using a MQTT server, ThingSpeak.
 
-![prot P.S.I](/Images/reactor.png)
+![prot P.S.I](/images/reactor.png)
 
 ## Requirements
 
@@ -49,29 +49,29 @@ ThingSpeak is an Internet of Things (IoT) analytics platform that allows you to 
 ## Features
 
 1. Show Internals
-![Internals](/Images/Internals.png)
+![Internals](/images/Internals.png)
 
 2. Poster
-![Development](/Images/Poster.png)
+![Development](/images/Poster.png)
 
 3. P&ID
-![Development](/Images/PID.png)
+![Development](/images/PID.png)
 
 4. Slider control
-![Development](/Images/Slider.png)
+![Development](/images/Slider.png)
 
 5. Tooltips
-![Development](/Images/Tooltip.png)
+![Development](/images/Tooltip.png)
 
 ## Development
-![Development](/Images/Development.png)
+![Development](/images/Development.png)
 
 Development cycle of the mixed reality app for hololens 2
 PiXYZ plugin of unity is used to import downsized 3D models into the scene and MRTK toolkit is used to provide the necessary mixed reality interaction. Initially ARspatialpin project was used as base project for the implementation of world locking tools which was necessary for a stable 3D visualisation of the reactor. QR codes were used in the place of Spacepins and lock the world according to our needs. Scripts from mixedrealityiot project was used to eastablish connection to thingspeak broker using m2mqtt. 
 
 Mqtt has subscribe method which allows us to get the updated data once it was published in the channel server by the device. Publish method of mqtt can be used to write values to the channel server for controlling the reactor remotely. We have to create seperate devices in thingspeak account for achieving this otherwise it might crash the connection. Each device as a unique user id and password this should be inserted into the mqtt manager script attached to the managers game object. Different field names should also be updated accordingly in the same script.
 
-![Server](/Images/MQTTserver.png)
+![Server](/images/MQTTserver.png)
 
 Mixed reality toolkit has toolbox which has lots of buttons and sliders built in. This was used as interactive elements inside the scene. Buttons should be configured inside the interactable script. Tooltips were enabled on gaze and this was achieved by editing the prefab spawner script. This edited script is in the  Test2/Assets/Scripts. Similar to this lot of other edited scripts can be found in this folder
 
