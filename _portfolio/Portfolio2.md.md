@@ -1,12 +1,15 @@
 ---
-title: "CFD tool for XR based heat exchanger design"
+title: "Extended Reality Tool for CFD-Aided Design and Development of a Shell-Tube Heat Exchanger"
 excerpt: "AR based tool for CFD aided heat exchanger design<br/><img src='/images/reactor.png'>"
 collection: portfolio
 ---
 
-# Extended Reality Tool for CFD-Aided Design and Development of a Shell-Tube Heat Exchanger
 
-![CFDXR](/images/menu with model.png)
+![CFDXR](/images/simulation menu.png)
+
+<div align="center">
+  <iframe width="560" height="315" src="https://github.com/Jeswin1995/Jeswin1995.github.io/blob/master/Videos/Thesis_edited_linkedinconverted.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Project Overview
 This project showcases the integration of Extended Reality (XR) technologies with Computational Fluid Dynamics (CFD) simulations to enhance advanced education and research in chemical engineering. The main highlight is a user-friendly Augmented Reality (AR) interface that allows interactive exploration and analysis of fluid dynamics in a shell and tube heat exchanger.
