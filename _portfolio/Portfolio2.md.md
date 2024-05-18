@@ -1,6 +1,6 @@
 ---
 title: "Extended Reality Tool for CFD-Aided Design and Development of a Shell-Tube Heat Exchanger"
-excerpt: "AR based tool for CFD aided heat exchanger design<br/><img src='/images/reactor.png'>"
+excerpt: "AR based tool for CFD aided heat exchanger design<br/><img src='/images/simulation menu with model.jpg'>"
 collection: portfolio
 ---
 
