@@ -8,7 +8,7 @@ collection: portfolio
 ![CFDXR](/images/simulation menu.png)
 
 <div align="center">
-  <iframe width="560" height="315" src="https://github.com/Jeswin1995/Jeswin1995.github.io/blob/master/Videos/Thesis_edited_linkedinconverted.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://youtu.be/-olkPf3L3b8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Project Overview
