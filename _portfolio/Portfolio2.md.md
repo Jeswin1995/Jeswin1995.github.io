@@ -1,102 +1,94 @@
 ---
-title: "Portfolio item number 2"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "CFD tool for XR based heat exchanger design"
+excerpt: "AR based tool for CFD aided heat exchanger design<br/><img src='/images/reactor.png'>"
 collection: portfolio
 ---
 
-# Augmented Reality Chemical Reactor Setup
+# Extended Reality Tool for CFD-Aided Design and Development of a Shell-Tube Heat Exchanger
 
-This project demonstrates how to use m2mqtt, WorldLocking tools, and Microsoft Hololens 2 to display a 3D model of a chemical reactor setup and control the same reactor using a MQTT server, ThingSpeak.
+![Project Banner](path_to_your_banner_image)
 
-![prot P.S.I](/Images/reactor.png)
+## Project Overview
+This project showcases the integration of Extended Reality (XR) technologies with Computational Fluid Dynamics (CFD) simulations to enhance advanced education and research in chemical engineering. The main highlight is a user-friendly Augmented Reality (AR) interface that allows interactive exploration and analysis of fluid dynamics in a shell and tube heat exchanger.
 
-## Requirements
+### Key Features
+- **Immersive AR Experience:** Provides an engaging and intuitive interface using Microsoft HoloLens 2.
+- **Real-Time Interaction:** Enables real-time interaction with CFD simulations, offering immediate insights and feedback.
+- **Educational Tool:** Facilitates learning through visual and interactive elements, making complex simulations accessible to users with varying levels of expertise.
+- **Open-Source Integration:** Leverages open-source software to ensure cost-effectiveness and flexibility.
 
-To use this project, you will need the following:
+## Table of Contents
+- [Abstract](#abstract)
+- [Introduction](#introduction)
+- [XR Features](#xr-features)
+- [Research Goals](#research-goals)
+- [Methodology](#methodology)
+- [Implementation](#implementation)
+- [Results](#results)
+- [Conclusion](#conclusion)
+- [Future Work](#future-work)
+- [Contact](#contact)
 
-- Microsoft Hololens 2 device
-- Unity 3D game engine (version 2019.3 or later)
-- Microsoft Visual Studio 2019 or Later
+## Abstract
+This project introduces a digital environment that integrates interactive CFD simulations tailored for advanced education in chemical engineering. The architecture employs a client-server network, establishing an automated bidirectional connection linking CFD solvers and a game engine. A modular software approach ensures the creation of enduring and interconnected digital applications. To address computational complexities and resource-intensive features, a content delivery network alleviates the burden of intricate calculations from end-user devices. A case study involving a shell and tube heat exchanger assesses the application’s performance, with results scrutinized for the efficacy of AR in visualizing simulations. Discussions center on the system’s applicability and outline potential future research and application directions.
 
-### m2mqtt
+## Introduction
+The European Union (EU) is funding large-scale research projects to integrate digital tools into education and training, aiming to develop digitally skilled workers. This study highlights the increasing significance of computing tools in engineering and education, focusing on CFD, computer-aided engineering (CAE), and process modeling tools. These tools are fundamental in solving practical fluid flow problems and require complex models to address various unit operations. However, commercial CFD solutions are often expensive and require specialist expertise, posing barriers to widespread adoption.
 
-m2mqtt is a lightweight MQTT client library written in C# that enables communication with MQTT brokers. It provides an easy-to-use API for sending and receiving messages, subscribing to topics, and handling different quality of service levels. This library is used in this project to establish communication between the Hololens 2 and the ThingSpeak MQTT server.
+## XR Features
+The primary focus of this project is to harness the potential of XR technologies, specifically Augmented Reality, to create an interactive and immersive learning environment. Key XR features include:
 
-### WorldLocking tools
+### Immersive Visualization
+- **3D Models:** Interactive 3D models of the shell and tube heat exchanger, generated from CFD simulation data.
+- **Holistic View:** Users can view and manipulate the heat exchanger from different angles, providing a comprehensive understanding of its structure and function.
 
-WorldLocking tools is a set of tools and libraries for building and deploying augmented reality applications in Unity. It provides features for mapping real-world environments, aligning virtual content with the real world, and creating shared experiences across multiple devices. This tool is used in this project to display the 3D model of the PROT PSI reactor setup in the Hololens 2.
+### Real-Time Interaction
+- **Gesture Controls:** Use of HoloLens 2’s gesture recognition to interact with simulation data, such as rotating models, zooming in and out, and selecting different flow paths.
+- **Live Data Visualization:** Real-time updates and visualization of CFD results, allowing users to see changes dynamically as they interact with the model.
 
-### ThingSpeak
+### Educational Enhancements
+- **Interactive Tutorials:** Step-by-step guided tutorials within the AR environment to help users understand the principles of heat exchangers and fluid dynamics.
+- **Annotations and Overlays:** Informative overlays and annotations to explain key components and phenomena within the heat exchanger.
 
-ThingSpeak is an Internet of Things (IoT) analytics platform that allows you to collect, analyze, and visualize data from IoT devices. It provides an MQTT broker that enables you to send and receive messages from connected devices, as well as a dashboard for visualizing and analyzing the data. This platform is used in this project to establish communication between the Hololens 2 and the chemical reactor setup.
+### Collaboration
+- **Multi-User Support:** Potential for collaborative learning and research, where multiple users can interact with the same AR environment simultaneously.
+- **Remote Access:** Capability for remote users to connect to the AR environment, facilitating distance learning and remote collaboration.
 
-## Setup
+## Research Goals
+The main objectives of this project are:
+1. **Creating a User-Friendly AR Interface:** Develop an AR interface that enhances accessibility for users with varying levels of expertise. This includes user-friendly controls and interactive elements to create an engaging simulation environment.
+2. **Incorporating Open-Source Software:** Utilize open-source CFD software to reduce costs associated with proprietary solutions, ensuring compatibility with the AR interface.
+3. **Specialized Tool for Heat Exchangers:** Develop a tool specifically for the research and investigation of shell and tube heat exchangers, leveraging CFD simulations within a game engine environment.
 
-1. Clone this repository to your local machine.
-2. Open the project in Unity.
-3. In the built settings change the platform to Universal Windows Platform.
-4. In the Unity editor, navigate to the "Assets/Scenes" folder and open the "SampleScene" scene.
-5. Build and deploy the application to your Hololens 2 device using Visual Studio.
+## Methodology
+The methodology involves server automation using open-source visual-based programming tools, notably Node-red, which facilitates seamless interconnection and automation of the simulation process. Communication between the AR device and server is managed using the MQTT protocol, ensuring efficient and reliable data transfer.
 
+## Implementation
+The implementation employs Microsoft HoloLens 2 as the AR hardware interface, integrating various software tools:
+- **CFD Simulations:** OpenFOAM for fluid dynamics simulations, automated in Node-RED.
+- **3D Visualization:** ParaView and Blender for transforming simulation data into interactive models.
+- **AR Application Development:** Unity, along with MRTK, for designing the user interface and enabling real-time insights into the heat exchanger's behavior.
 
-## Usage
+## Results
+The case study demonstrates the effectiveness of the AR application in visualizing CFD simulations of a shell and tube heat exchanger. The use of AR significantly enhances user comprehension and interaction with simulation data, providing precise and captivating experiences.
 
-1. Launch the application on your Hololens 2 device.
-2. Use the Hololens 2 to scan the QR code and place the model accordingly.
-3. The 3D model of the chemical reactor setup should now be displayed in the Hololens 2.
-4. Use the Hololens 2 to interact with the model and control the reactor.
+## Conclusion
+The study successfully integrates AR with CFD simulations, making advanced fluid dynamics accessible to a broader audience. Future research may explore further enhancements in AR technology and its application in other engineering fields.
 
-## Features
+## Future Work
+- Enhance the AR interface with more interactive features.
+- Expand the application to other types of heat exchangers and engineering systems.
+- Investigate the integration of VR technologies for more immersive experiences.
+- Conduct user studies to gather feedback and improve the user experience.
 
-1. Show Internals
-![Internals](/Images/Internals.png)
+## Contact
+For more information, please contact:
 
-2. Poster
-![Development](/Images/Poster.png)
+**Jeswin Kannampuzha Francis**  
+[Email](mailto:your-email@example.com)  
+[LinkedIn](https://www.linkedin.com/in/your-profile)  
+[GitHub](https://github.com/your-profile)
 
-3. P&ID
-![Development](/Images/PID.png)
+---
 
-4. Slider control
-![Development](/Images/Slider.png)
-
-5. Tooltips
-![Development](/Images/Tooltip.png)
-
-## Development
-![Development](/Images/Development.png)
-
-Development cycle of the mixed reality app for hololens 2
-PiXYZ plugin of unity is used to import downsized 3D models into the scene and MRTK toolkit is used to provide the necessary mixed reality interaction. Initially ARspatialpin project was used as base project for the implementation of world locking tools which was necessary for a stable 3D visualisation of the reactor. QR codes were used in the place of Spacepins and lock the world according to our needs. Scripts from mixedrealityiot project was used to eastablish connection to thingspeak broker using m2mqtt. 
-
-Mqtt has subscribe method which allows us to get the updated data once it was published in the channel server by the device. Publish method of mqtt can be used to write values to the channel server for controlling the reactor remotely. We have to create seperate devices in thingspeak account for achieving this otherwise it might crash the connection. Each device as a unique user id and password this should be inserted into the mqtt manager script attached to the managers game object. Different field names should also be updated accordingly in the same script.
-
-![Server](/Images/MQTTserver.png)
-
-Mixed reality toolkit has toolbox which has lots of buttons and sliders built in. This was used as interactive elements inside the scene. Buttons should be configured inside the interactable script. Tooltips were enabled on gaze and this was achieved by editing the prefab spawner script. This edited script is in the  Test2/Assets/Scripts. Similar to this lot of other edited scripts can be found in this folder
-
-Holographic remoting functionality in the mixed reality toolkit can be used to get a instant feedback during the development stage.
-
-If you want to change the location of the setup according to QRcode then you have to change the coordinates of the QRCODE_1 under the markers Gameobject inside the scene. This act as the location of the QRcode inside the scene and the unity world will be set accordingly.
-
-While building the scene in the unity, it is essential to use ARM 64 under Universal windows platform. In visual studio ARM64 should be again selected under Platform and Release  should be selected under Configuration.
-## Troubleshooting
-
-If you encounter any issues with the application, please check the following:
-
-- Ensure that your Hololens 2 is connected to the network.
-- Check that your ThingSpeak account and MQTT server are configured correctly.
-- Ensure that you build the solution for ARM64
-
-## Author
-Daniel Niehaus- Supervisor
-
-Jeswin Kannampuzha Francis- Developer
-
-
-## Additional Resources
-
-
-- [m2mqtt IoT project for car maintenance](https://github.com/mixedrealityiot/OBD-II_MQTT_HoloLens.git)
-- [ARspatialpin project of WorldLocking tools](https://github.com/microsoft/MixedReality-WorldLockingTools-Samples.git)
- 
+© 2024 Jeswin Kannampuzha Francis. All rights reserved.
