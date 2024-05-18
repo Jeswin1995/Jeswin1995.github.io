@@ -7,9 +7,7 @@ collection: portfolio
 
 ![CFDXR](/images/simulation menu with model.png)
 
-<div align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/-olkPf3L3b8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-olkPf3L3b8?si=rq7nVFWnbvW6VXSV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Project Overview
 This project showcases the integration of Extended Reality (XR) technologies with Computational Fluid Dynamics (CFD) simulations to enhance advanced education and research in chemical engineering. The main highlight is a user-friendly Augmented Reality (AR) interface that allows interactive exploration and analysis of fluid dynamics in a shell and tube heat exchanger.
