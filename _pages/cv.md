@@ -8,11 +8,6 @@ redirect_from:
 ---
 
 # Jeswin Kannampuzha Francis
-
-**E-Mail:** [kfjeswin@gmail.com](mailto:kfjeswin@gmail.com)  
-**LinkedIn:** [www.linkedin.com/in/jeswinkannampuzhafrancis](https://www.linkedin.com/in/jeswinkannampuzhafrancis)  
-**GitHub:** [https://github.com/Jeswin1995](https://github.com/Jeswin1995)
-
 ---
 
 ## Professional Career
